@@ -31,6 +31,12 @@ nav ul li a{
 	margin-top: 2%;
 }
 
+#main-heading {
+	margin-left: 3%;
+	padding-top: 2%;
+	font-weight: bold;
+}
+
 #profilepic
 {
 	margin-top: 1%;
@@ -47,3 +53,8 @@ nav ul li a{
 	/*font-weight: bold;*/
 }
 
+.carousel-item {
+	color: black;
+	font-size: 20px;
+	text-align: center;
+}
