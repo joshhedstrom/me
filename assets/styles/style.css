@@ -1,18 +1,49 @@
-html {
-	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+html
+{
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
 }
 
- body {
+body
+{
     display: flex;
-    min-height: 100vh;
     flex-direction: column;
-  }
 
-  main {
+    min-height: 100vh;
+}
+
+main
+{
     flex: 1 0 auto;
-  }
+}
 
-  .icons {
-  	font-size: 28px;
-  	text-align: center;
-  }
+nav ul li a{
+		color: black;
+		}
+
+.icons
+{
+    font-size: 28px;
+
+    text-align: center;
+}
+
+.main-content {
+	margin-top: 2%;
+}
+
+#profilepic
+{
+	margin-top: 1%;
+    /*width: auto;*/
+    /*height: 220px;*/
+    /*border-style: solid;
+    border-color: black;
+    border-width:;*/
+}
+
+#bio {
+	font-size: 16px;
+	color: black;
+	/*font-weight: bold;*/
+}
+
