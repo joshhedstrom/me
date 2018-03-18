@@ -16,9 +16,10 @@ main
     flex: 1 0 auto;
 }
 
-nav ul li a{
-		color: black;
-		}
+nav ul li a
+{
+    color: black;
+}
 
 .icons
 {
@@ -27,19 +28,29 @@ nav ul li a{
     text-align: center;
 }
 
-.main-content {
-	margin-top: 2%;
+.main-content
+{
+    margin-top: 2%;
 }
 
-#main-heading {
-	margin-left: 3%;
-	padding-top: 2%;
+#title
+{
+	font-size: 22px;
 	font-weight: bold;
+	padding-top: 7px;
+}
+
+#main-heading
+{
+    font-weight: bold;
+
+    margin-left: 3%;
+    padding-top: 2%;
 }
 
 #profilepic
 {
-	margin-top: 1%;
+    margin-top: 1%;
     /*width: auto;*/
     /*height: 220px;*/
     /*border-style: solid;
@@ -47,14 +58,38 @@ nav ul li a{
     border-width:;*/
 }
 
-#bio {
-	font-size: 16px;
-	color: black;
-	/*font-weight: bold;*/
+#bio
+{
+    font-size: 16px;
+
+    color: black;
+    /*font-weight: bold;*/
 }
 
-.carousel-item {
-	color: black;
-	font-size: 20px;
-	text-align: center;
+.carousel-item
+{
+    font-size: 20px;
+
+    text-align: center;
+
+    color: black;
+}
+
+#contactInfo
+{
+    font-size: 20px;
+
+    padding: 20px;
+}
+
+#contactInfo a
+{
+    color: black;
+}
+
+@media only screen and (min-width: 994px){
+ #title {
+ 	padding-left: 35px;
+ 	font-size: 30px;
+ }
 }
