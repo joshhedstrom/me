@@ -20,14 +20,14 @@
 					<a href="#!" class="brand-logo black-text"><h5 id="title">josh hedstrom</h5></a>
 					<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 					<ul class="right hide-on-med-and-down black-text">
-						<li><a href="#">about</a></li>
+						<li><a href="index.html">about</a></li>
 						<li><a href="portfolio.html">portfolio</a></li>
-						<li><a href="contact.html">contact</a></li>
+						<li><a href="#">contact</a></li>
 					</ul>
 					<ul class="side-nav" id="mobile-demo">
-						<li class=""><a href="#">about</a></li>
+						<li class=""><a href="index.html">about</a></li>
 						<li><a href="portfolio.html">portfolio</a></li>
-						<li><a href="contact.html">contact</a></li>
+						<li><a href="#">contact</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -45,16 +45,13 @@
 		</header>
 		<main class="container">
 			<div class="row main-content">
-				<h3 id="main-heading">about me</h3>
-				<div class="col s6 m3">
-					<img id="profilepic" class="responsive-img circle" src="./assets/styles/images/profile-new.jpg" alt="josh hedstrom">
-				</div>
-				<div class="col s12 m9">
-					<p id="bio">Hello! I'm Josh Hedstrom, and I'm a full stack developer. I have experience in HTML, CSS, JavaScript, jQuery, Ajax, as well as Bootstrap and Materialize. I'm passionate about using technologically driven solutions to solve real world problems, and I have a never ending curiousity for cutting edge technology. <br><br>I currently live in St. Paul, Minnesota, with my wife and 11 month old daughter. When I'm not coding, I enjoy running, music, craft beer, and spending time with my family. <br><br>Thanks for stopping by!
-						
-					</p>
+				<h3 id="main-heading">contact me</h3>
+				<div id="contactInfo">
+					<p>Phone: 507-413-7841</p><br>
+					<a href="mailto:josh.hedstrom@gmail.com">josh.hedstrom@gmail.com</a>
 				</div>
 			</div>
+			
 		</main>
 		<footer>
 			<div class="footer-copyright black-text center-align">
@@ -63,6 +60,19 @@
 				</div>
 			</div>
 		</footer>
+		<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+		<script>
+		// Initialize Firebase
+		var config = {
+		apiKey: "AIzaSyDARFh3ZZvJnPFsvZKdBvBfz58wGwoqBtY",
+		authDomain: "personalsite-55c4a.firebaseapp.com",
+		databaseURL: "https://personalsite-55c4a.firebaseio.com",
+		projectId: "personalsite-55c4a",
+		storageBucket: "personalsite-55c4a.appspot.com",
+		messagingSenderId: "659724012306"
+		};
+		firebase.initializeApp(config);
+		</script>
 		<script
 		src="https://code.jquery.com/jquery-3.3.1.min.js"
 		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
