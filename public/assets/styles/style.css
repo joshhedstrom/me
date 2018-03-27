@@ -81,14 +81,14 @@ nav, footer, .side-nav {
     color: black;
 }
 
-#contactInfo
+.contactInfo
 {
     font-size: 20px;
 
     padding: 20px;
 }
 
-#contactInfo a
+.contactInfo a
 {
     color: black;
 }
