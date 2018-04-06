@@ -9,7 +9,8 @@ body
     flex-direction: column;
 
     min-height: 100vh;
-    background-color: #EAE7DC;
+
+    background-color: #eae7dc;
 }
 
 main
@@ -22,8 +23,11 @@ nav ul li a
     color: black;
 }
 
-nav, footer, .side-nav {
-	background-color: #D8C3A5;
+nav,
+footer,
+.side-nav
+{
+    background-color: #d8c3a5;
 }
 
 .icons
@@ -36,14 +40,16 @@ nav, footer, .side-nav {
 .main-content
 {
     margin-top: 2%;
-    background-color: #8E8D8A;
+
+    background-color: #8e8d8a;
 }
 
 #title
 {
-	font-size: 22px;
-	font-weight: bold;
-	padding-top: 7px;
+    font-size: 22px;
+    font-weight: bold;
+
+    padding-top: 7px;
 }
 
 #main-heading
@@ -72,6 +78,18 @@ nav, footer, .side-nav {
     /*font-weight: bold;*/
 }
 
+#blog
+{
+    text-decoration: underline;
+
+    color: black;
+}
+
+#blog:hover
+{
+    font-weight: bold;
+}
+
 .carousel-item
 {
     font-size: 20px;
@@ -95,12 +113,15 @@ nav, footer, .side-nav {
 
 #socials
 {
-	background-color: #E85A4F;
+    background-color: #e85a4f;
 }
 
-@media only screen and (min-width: 994px){
- #title {
- 	padding-left: 35px;
- 	font-size: 30px;
- }
+@media only screen and (min-width: 994px)
+{
+    #title
+    {
+        font-size: 30px;
+
+        padding-left: 35px;
+    }
 }
