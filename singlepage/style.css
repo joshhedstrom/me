@@ -1,0 +1,128 @@
+html
+{
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100vh;
+
+    background-color: #eae7dc;
+}
+
+main
+{
+    flex: 1 0 auto;
+}
+
+
+.icons
+{
+    font-size: 28px;
+
+    text-align: center;
+}
+
+#title
+{
+    font-size: 22px;
+    font-weight: bold;
+
+    padding-top: 7px;
+}
+
+#main-heading
+{
+    font-weight: bold;
+
+    margin-left: 3%;
+    padding-top: 2%;
+}
+
+#profilepic
+{
+    margin-top: 1%;
+}
+
+p
+{
+    font-size: 16px;
+
+    color: black;
+}
+
+.carousel-item
+{
+    font-size: 20px;
+
+    text-align: center;
+
+    color: black;
+}
+
+#customerSubmit {
+    margin-left: 1%;
+}
+
+/* label focus color */
+.input-field input:focus, label + textarea:focus
+{
+    color: black !important;
+}
+/* label underline focus color */
+.row .input-field input:focus, textarea:focus
+{
+    border-bottom: 1px solid black !important;
+    box-shadow: 0 1px 0 0 black !important;
+}
+/* icon prefix focus color */
+.input-field .prefix.active
+{
+    color: black;
+}
+/* label color */
+.input-field label
+{
+    color: black;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label, [type=text]textarea:focus
+{
+    color: black;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus, textarea[type=text]:focus
+{
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 0 0 black;
+}
+/* valid color */
+.input-field input[type=text].valid, textarea.valid
+{
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 0 0 black;
+}
+/* invalid color */
+.input-field input[type=text].invalid, textarea.invalid
+{
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 0 0 black;
+}
+
+
+@media only screen and (min-width: 994px)
+{
+    #title
+    {
+        font-size: 30px;
+
+        padding-left: 35px;
+    }
+}
+
+.parallaxImages {
+    width: 100%
+}
