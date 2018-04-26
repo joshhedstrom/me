@@ -8,7 +8,7 @@ Hey! I'm Josh Hedstrom, and I'm a passionate problem solver and full stack devel
 
 I'm creative, energetic, logical, a hard worker, quick learner, and always curious. 
 
-I currently live in St. Paul, Minnesota, with my wife and 12 month old daughter. When I'm not coding, I enjoy running, music, craft beer, and spending time with my family.
+I currently live in St. Paul, Minnesota with my wife and 1 year old daughter. When I'm not coding, I enjoy running, music, craft beer, and spending time with my family.
 
 https://jhedstrom.com
 
