@@ -1,5 +1,5 @@
 <!doctype html>
-<html >
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -23,26 +23,9 @@
 	</head>
 	<body>
 		<header>
-			<nav class="">
-				<div class="nav-wrapper">
-					<a href="#!" class="brand-logo black-text"><h5 id="title">josh hedstrom</h5></a>
-					<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-					<ul class="right hide-on-med-and-down black-text">
-						<li><a href="#">about</a></li>
-						<li><a href="portfolio.html">portfolio</a></li>
-						<li><a href="work.html">hire me</a></li>
-						<li><a href="contact.html">contact</a></li>
-					</ul>
-					<ul class="side-nav" id="mobile-demo">
-						<li class=""><a href="#">about</a></li>
-						<li><a href="portfolio.html">portfolio</a></li>
-						<li><a href="work.html">hire me</a></li>
-						<li><a href="contact.html">contact</a></li>
-					</ul>
-				</div>
-			</nav>
+			<h1 id="title">josh hedstrom</h1>
 			<div class="fixed-action-btn horizontal click-to-toggle">
-				<a class="btn-floating btn-large" id="socials">
+				<a class="btn-floating btn-large red darken-2" id="socials">
 					<i class="material-icons">link</i>
 				</a>
 				<ul>
@@ -52,16 +35,101 @@
 				</ul>
 			</div>
 		</header>
-		<main class="container">
-			<div class="row main-content">
-				<h3 id="main-heading">about me</h3>
-				<div class="col s6 m3">
-					<img id="profilepic" class="responsive-img circle" src="./assets/images/profile-new.jpg" alt="josh hedstrom">
+		<main>
+			<div class="parallax-container">
+				<div class="parallax"><img src="./assets/images/coffee1.jpg" alt="coffee and computer" class="parallaxImages"></div>
+			</div>
+			<div class="section grey-text text-darken-3 lighten-3">
+				<div class="row container">
+					<h2 class="header">about me</h2>
+					<div class="col s6 m3">
+						<img id="profilepic" class="responsive-img circle" src="./assets/images/profile-new.jpg" alt="josh hedstrom">
+					</div>
+					<div class="col s12 m9">
+						<p>Hey! I'm Josh Hedstrom, and I'm a passionate problem solver and full stack developer. I have experience in HTML, CSS, JavaScript, jQuery, Ajax, Node.js and Firebase, as well as Bootstrap and Materialize. <br><br> I'm creative, energetic, logical, a hard worker, quick learner, and always curious. <br><br>I currently live in St. Paul, Minnesota, with my wife and 12 month old daughter. When I'm not coding, I enjoy running, music, craft beer, and spending time with my family.
+						</p>
+					</div>
 				</div>
-				<div class="col s12 m9">
-					<p id="bio">Hey! I'm Josh Hedstrom, and I'm a full stack developer and passionate problem solver. I have experience in HTML, CSS, JavaScript, jQuery, Ajax and Firebase, as well as Bootstrap and Materialize. I get excited about using tech to solve real world problems, and I have a never ending curiousity for cutting edge technology. <br><br>I currently live in St. Paul, Minnesota, with my wife and 12 month old daughter. When I'm not coding, I enjoy running, music, craft beer, and spending time with my family.<br><br>Thanks for stopping by!
-						
+			</div>
+			<div class="parallax-container">
+				<div class="parallax"><img src="./assets/images/keyboard1.jpg" alt="laptop keyboard" class="parallaxImages"></div>
+			</div>
+			<div class="section container">
+				<div class="carousel">
+					<h2 class="header">my work</h2>
+					<a class="carousel-item" href="https://joshhedstrom.github.io/brewFinder/" target="_blank"><img src="./assets/images/brewery.jpg" alt="brewfinder app">brewFinder</a>
+					<a class="carousel-item" href="https://joshhedstrom.github.io/rps-app/" target="_blank"><img src="./assets/images/rps.jpg" alt="rock paper scissors app">Live R-P-S Game</a>
+					<a class="carousel-item" href="https://joshhedstrom.github.io/Hangman-Game/" target="_blank"><img src="./assets/images/hangman.jpg" alt="hangman game">hangman game</a>
+					<a class="carousel-item" href="https://joshhedstrom.github.io/giphy-api/" target="_blank"><img src="./assets/images/giphy.png" alt="giphy api">Animal Giphy API</a>
+					<a class="carousel-item" href="https://joshhedstrom.github.io/04-jQuery-Game/" target="_blank"><img src="./assets/images/lotr.jpg" alt="lord of the rings game">RPG Game</a>
+					<a class="carousel-item" href="https://joshhedstrom.github.io/TriviaGame/" target="_blank"><img src="./assets/images/trivia.jpg" alt="geography trivia game">Geography Trivia</a>
+					<a class="carousel-item" href="https://github.com/joshhedstrom/brainAnalytics" target="_blank"><img src="./assets/images/brain.png" alt="machine learning demo">Machine Learning Demo</a>
+				</div>
+			</div>
+			<div class="parallax-container">
+				<div class="parallax"><img src="./assets/images/code1.jpg" alt="computer code" class="parallaxImages"></div>
+			</div>
+			<div class="section">
+				<div class="row container">
+					<h2 class="header">need a website?</h2>
+					<p>
+						Are you a business, non-profit organization, or artist? Do you need a modern and well designed website to boost your online presence? I would love to grab a cup of coffee with you and talk about you and message you want to communicate.
+						<br><br>
+						Fill out the contact form at the botton of the page to start the conversation.
+						<br><br>
+						Looking forward to working with you!
 					</p>
+				</div>
+			</div>
+			<div class="parallax-container">
+				<div class="parallax"><img src="./assets/images/coffee2.jpg" alt="coffee and computer" class="parallaxImages"></div>
+			</div>
+			<div class="section">
+				<div class="row container">
+					<h2 class="header">contact</h2>
+					<form class="col s12">
+						<div class="row">
+							<div class="input-field col s12">
+								<i class="material-icons prefix">account_circle</i>
+								<input id="customerName" type="text" class="validate">
+								<label for="customerName" class="black-text">Name</label>
+							</div>
+							<div class="input-field col s12">
+								<i class="material-icons prefix">phone</i>
+								<input id="customerNumber" type="tel" class="validate">
+								<label for="customerNumber" class="black-text">Telephone</label>
+							</div>
+							<div class="input-field col s12">
+								<i class="material-icons prefix">mail</i>
+								<input id="customerEmail" type="email" class="validate">
+								<label for="customerEmail" class="black-text">Email</label>
+							</div>
+							<div class="input-field col s12">
+								<i class="material-icons prefix">mode_edit</i>
+								<textarea id="customerMessage" class="materialize-textarea"></textarea>
+								<label for="customerMessage" class="black-text">Message</label>
+							</div>
+							<a id="customerSubmit" class="btn red darken-2">Submit</a>
+						</div>
+					</form>
+					<div id="confirmModal" class="modal">
+						<div class="modal-content">
+							<h4>Thank You!</h4>
+							<p>Your message was submitted successfully! I will get in touch with you soon!</p>
+						</div>
+						<div class="modal-footer">
+							<a href="#!" class="modal-action modal-close waves-effect red darken-2 btn-flat">Ok</a>
+						</div>
+					</div>
+					<div id="rejectModal" class="modal">
+						<div class="modal-content">
+							<h4>Oops!</h4>
+							<p>Please fill out all fields.</p>
+						</div>
+						<div class="modal-footer">
+							<a href="#!" class="modal-action modal-close waves-effect red darken-2 btn-flat">Ok</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</main>
