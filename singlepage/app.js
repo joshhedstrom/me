@@ -1,8 +1,8 @@
 $(document).ready(function() {
-	$('.parallax').parallax();
+    $('.parallax').parallax();
     $(".button-collapse").sideNav();
     $('.carousel').carousel();
-     $('.modal').modal({
+    $('.modal').modal({
         dismissible: false
     });
 
@@ -18,10 +18,10 @@ $(document).ready(function() {
 
     const database = firebase.database()
 
-
     $('#customerSubmit').click((event) => {
         event.preventDefault();
-        if ($('#customerName') !== null && $('#customerNumber') !== null && $('#customerEmail') !== null && $('#customerMessage') !== null) {
+
+        if ($('#customerName').val() !== '' && $('#customerNumber').val() !== '' && $('#customerEmail').val() !== '' && $('#customerMessage').val() !== '') {
             let name = $('#customerName').val().trim();
             let number = $('#customerNumber').val().trim();
             let email = $('#customerEmail').val().trim();
@@ -29,6 +29,12 @@ $(document).ready(function() {
 
             saveMessage(name, number, email, message);
             $('#confirmModal').modal('open');
+            $('#customerName').val('');
+            $('#customerNumber').val('');
+            $('#customerEmail').val('');
+            $('#customerMessage').val('');
+        } else {
+            $('#rejectModal').modal('open');
         }
     });
 
@@ -40,5 +46,4 @@ $(document).ready(function() {
             message: message,
         })
     }
-
 });
