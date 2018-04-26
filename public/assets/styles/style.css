@@ -3,6 +3,14 @@ html
     font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
 }
 
+
+
+.parallax img
+{
+    width: 100%;
+}
+
+
 body
 {
     display: flex;
@@ -18,16 +26,11 @@ main
     flex: 1 0 auto;
 }
 
-nav ul li a
+p
 {
-    color: black;
-}
+    font-size: 16px;
 
-nav,
-footer,
-.side-nav
-{
-    background-color: #d8c3a5;
+    color: black;
 }
 
 .icons
@@ -37,19 +40,13 @@ footer,
     text-align: center;
 }
 
-.main-content
-{
-    margin-top: 2%;
-
-    background-color: #8e8d8a;
-}
-
 #title
 {
-    font-size: 22px;
+    font-size: 30px;
     font-weight: bold;
 
     padding-top: 7px;
+    padding-left: 35px;
 }
 
 #main-heading
@@ -63,32 +60,8 @@ footer,
 #profilepic
 {
     margin-top: 1%;
-    /*width: auto;*/
-    /*height: 220px;*/
-    /*border-style: solid;
-    border-color: black;
-    border-width:;*/
 }
 
-#bio
-{
-    font-size: 16px;
-
-    color: black;
-    /*font-weight: bold;*/
-}
-
-#blog
-{
-    text-decoration: underline;
-
-    color: black;
-}
-
-#blog:hover
-{
-    font-weight: bold;
-}
 
 .carousel-item
 {
@@ -99,29 +72,71 @@ footer,
     color: black;
 }
 
-.contactInfo
+#customerSubmit
 {
-    font-size: 20px;
-
-    padding: 20px;
+    margin-left: 1%;
 }
 
-.contactInfo a
+.input-field input:focus,
+label,
+textarea:focus
+{
+    color: black !important;
+}
+
+.row .input-field input:focus,
+textarea:focus
+{
+    border-bottom: 1px solid black !important;
+    box-shadow: 0 1px 0 0 black !important;
+}
+
+.input-field .prefix.active
 {
     color: black;
 }
 
-#socials
+.input-field label
 {
-    background-color: #e85a4f;
+    color: black;
 }
 
-@media only screen and (min-width: 994px)
+.input-field input[type=text]:focus label textarea[type=text]:focus
 {
-    #title
-    {
-        font-size: 30px;
+    color: black;
+}
 
-        padding-left: 35px;
+.input-field input[type=text]:focus,
+textarea[type=text]:focus
+{
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 0 0 black;
+}
+
+.input-field input[type=text].valid,
+textarea.valid
+{
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 0 0 black;
+}
+
+.input-field input[type=text].invalid,
+textarea.invalid
+{
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 0 0 black;
+}
+
+
+@media only screen and (max-width: 768px)
+{
+    .parallax img
+    {
+        position: absolute;
+
+        float: right;
+
+        width: auto;
+        height: 500px;
     }
 }
