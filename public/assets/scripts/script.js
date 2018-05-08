@@ -1,6 +1,5 @@
 $(document).ready(function() {
     $('.parallax').parallax();
-    $(".button-collapse").sideNav();
     $('.carousel').carousel();
     $('.modal').modal({
         dismissible: false
