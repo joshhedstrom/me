@@ -5,18 +5,8 @@ $(document).ready(function() {
         dismissible: false
     });
 
-    const config = {
-        apiKey: "AIzaSyDARFh3ZZvJnPFsvZKdBvBfz58wGwoqBtY",
-        authDomain: "personalsite-55c4a.firebaseapp.com",
-        databaseURL: "https://personalsite-55c4a.firebaseio.com",
-        projectId: "personalsite-55c4a",
-        storageBucket: "personalsite-55c4a.appspot.com",
-        messagingSenderId: "659724012306"
-    };
-    firebase.initializeApp(config);
 
-    const database = firebase.database()
-
+        let messageDetails;
     $('#customerSubmit').click((event) => {
         event.preventDefault();
 
@@ -26,8 +16,14 @@ $(document).ready(function() {
             let email = $('#customerEmail').val().trim();
             let message = $('#customerMessage').val().trim();
 
-            saveMessage(name, number, email, message);
-            $('#confirmModal').modal('open');
+            messageDetails = {
+                name: name,
+                number: number,
+                email: email,
+                message: message
+            }
+
+            sendMessage();
             $('#customerName').val('');
             $('#customerNumber').val('');
             $('#customerEmail').val('');
@@ -37,12 +33,11 @@ $(document).ready(function() {
         }
     });
 
-    function saveMessage(name, number, email, message) {
-        database.ref().push({
-            name: name,
-            number: number,
-            email: email,
-            message: message,
-        })
+    function sendMessage() {
+        $.post('/contact', messageDetails, (data) => {
+            console.log(`data: ${data}`)
+            $('#confirmModal').modal('open');
+            /*optional stuff to do after success */
+        });
     }
 });
