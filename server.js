@@ -10,6 +10,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 app.use(bodyParser.json());
+app.use(morgan('dev'));
 
 require("./routes/html-routes.js")(app);
 

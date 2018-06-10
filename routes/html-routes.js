@@ -19,9 +19,9 @@ module.exports = (app) => {
       });
       let mailOptions = {
           from: req.body.email,
-          to: '"Josh Hedstrom" <jhedstrom256@gmail.com>',
+          to: '"Josh Hedstrom" <josh.hedstrom@gmail.com>',
           subject: `Contact from: ${req.body.name} || ${req.body.number}`,
-          text: req.body.message,
+          text: `Name: ${req.body.name} \nEmail: ${req.body.email} \nPhone: ${req.body.number} \nMessage: ${req.body.message}`,
       };
 
       transporter.sendMail(mailOptions, (err, info) => {
