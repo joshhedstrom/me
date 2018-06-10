@@ -13,13 +13,13 @@ module.exports = (app) => {
           port: 465,
           secure: true,
           auth: {
-              user: 'josh.hedstrom@gmail.com',
+              user: 'jhedstrom256@gmail.com',
               pass: process.env.GMAIL_PASSWORD
           }
       });
       let mailOptions = {
           from: req.body.email,
-          to: '"Josh Hedstrom" <josh.hedstrom@gmail.com>',
+          to: '"Josh Hedstrom" <jhedstrom256@gmail.com>',
           subject: `Contact from: ${req.body.name} || ${req.body.number}`,
           text: req.body.message,
       };
