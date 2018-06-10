@@ -1,0 +1,31 @@
+{
+  "name": "joshhedstrom.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshhedstrom/joshhedstrom.github.io.git"
+  },
+  "keywords": [],
+  "author": "Josh Hedstrom <josh.hedstrom@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshhedstrom/joshhedstrom.github.io/issues"
+  },
+  "homepage": "https://github.com/joshhedstrom/joshhedstrom.github.io#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "nodemailer": "^4.6.5",
+    "path": "^0.12.7"
+  }
+}
