@@ -7,8 +7,8 @@ $(document).ready(function() {
 
 
         let messageDetails;
-    $('#customerSubmit').click((event) => {
-        event.preventDefault();
+    $('#customerSubmit').click((e) => {
+        e.preventDefault();
 
         if ($('#customerName').val() !== '' && $('#customerNumber').val() !== '' && $('#customerEmail').val() !== '' && $('#customerMessage').val() !== '') {
             let name = $('#customerName').val().trim();
@@ -35,9 +35,7 @@ $(document).ready(function() {
 
     function sendMessage() {
         $.post('/contact', messageDetails, (data) => {
-            console.log(`data: ${data}`)
             $('#confirmModal').modal('open');
-            /*optional stuff to do after success */
         });
     }
 });
