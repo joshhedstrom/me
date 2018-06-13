@@ -6,7 +6,7 @@ $(document).ready(function() {
     });
 
 
-        let messageDetails;
+    let messageDetails;
     $('#customerSubmit').click((e) => {
         e.preventDefault();
 

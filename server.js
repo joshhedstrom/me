@@ -14,6 +14,6 @@ app.use(morgan('dev'));
 
 require("./routes/html-routes.js")(app);
 
-app.listen(PORT, ()=> {
+app.listen(PORT, () => {
     console.log(`App listening on http://localhost: ${PORT}`);
 })
