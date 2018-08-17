@@ -1,141 +1,113 @@
-html
-{
-    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+html {
+  font-family: 'Courier New', Courier, 'Lucida Sans Typewriter',
+    'Lucida Typewriter', monospace;
 }
 
-
-.parallax img
-{
-    width: 100%;
+.parallax img {
+  width: 100%;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
 
-body
-{
-    display: flex;
-    flex-direction: column;
+  min-height: 100vh;
 
-    min-height: 100vh;
-
-    background-color: #eae7dc;
+  background-color: #eae7dc;
 }
 
-main
-{
-    flex: 1 0 auto;
+main {
+  flex: 1 0 auto;
 }
 
-p
-{
-    font-size: 16px;
+p {
+  font-size: 16px;
 
-    color: black;
+  color: black;
 }
 
-.icons
-{
-    font-size: 28px;
+.icons {
+  font-size: 28px;
 
-    text-align: center;
+  text-align: center;
 }
 
-#title
-{
-    font-size: 30px;
-    font-weight: bold;
-
-    padding-top: 7px;
-    padding-left: 35px;
+.icons:hover {
+  font-size: 35px;
 }
 
-#main-heading
-{
-    font-weight: bold;
+#title {
+  font-size: 30px;
+  font-weight: bold;
 
-    margin-left: 3%;
-    padding-top: 2%;
+  padding-top: 7px;
+  padding-left: 35px;
 }
 
-#profilepic
-{
-    margin-top: 1%;
+#main-heading {
+  font-weight: bold;
+
+  margin-left: 3%;
+  padding-top: 2%;
 }
 
-
-.carousel-item
-{
-    font-size: 20px;
-
-    text-align: center;
-
-    color: black;
+#profilepic {
+  margin-top: 1%;
 }
 
-#customerSubmit
-{
-    margin-left: 1%;
+#customerSubmit {
+  margin-left: 1%;
 }
 
 .input-field input:focus,
 label,
-textarea:focus
-{
-    color: black !important;
+textarea:focus {
+  color: black !important;
 }
 
 .row .input-field input:focus,
-textarea:focus
-{
-    border-bottom: 1px solid black !important;
-    box-shadow: 0 1px 0 0 black !important;
+textarea:focus {
+  border-bottom: 1px solid black !important;
+  box-shadow: 0 1px 0 0 black !important;
 }
 
-.input-field .prefix.active
-{
-    color: black;
+.input-field .prefix.active {
+  color: black;
 }
 
-.input-field label
-{
-    color: black;
+.input-field label {
+  color: black;
 }
 
-.input-field input[type=text]:focus label textarea[type=text]:focus
-{
-    color: black;
+.input-field input[type='text']:focus label textarea[type='text']:focus {
+  color: black;
 }
 
-.input-field input[type=text]:focus,
-textarea[type=text]:focus
-{
-    border-bottom: 1px solid black;
-    box-shadow: 0 1px 0 0 black;
+.input-field input[type='text']:focus,
+textarea[type='text']:focus {
+  border-bottom: 1px solid black;
+  box-shadow: 0 1px 0 0 black;
 }
 
-.input-field input[type=text].valid,
-textarea.valid
-{
-    border-bottom: 1px solid black;
-    box-shadow: 0 1px 0 0 black;
+.input-field input[type='text'].valid,
+textarea.valid {
+  border-bottom: 1px solid black;
+  box-shadow: 0 1px 0 0 black;
 }
 
-.input-field input[type=text].invalid,
-textarea.invalid
-{
-    border-bottom: 1px solid black;
-    box-shadow: 0 1px 0 0 black;
+.input-field input[type='text'].invalid,
+textarea.invalid {
+  border-bottom: 1px solid black;
+  box-shadow: 0 1px 0 0 black;
 }
 
+@media only screen and (max-width: 768px) {
+  .parallax img {
+    position: absolute;
 
-@media only screen and (max-width: 768px)
-{
-    .parallax img
-    {
-        position: absolute;
+    float: right;
 
-        float: right;
-
-        width: auto;
-        height: 500px;
-    }
+    width: auto;
+    height: 500px;
+  }
 }
