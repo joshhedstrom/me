@@ -1,41 +1,52 @@
-$(document).ready(function() {
-    $('.parallax').parallax();
-    $('.carousel').carousel();
-    $('.modal').modal({
-        dismissible: false
-    });
+$(document).ready(() => {
+  $('.parallax').parallax();
+  $('.modal').modal({
+    dismissible: false
+  });
 
+  let messageDetails;
+  $('#customerSubmit').click(e => {
+    e.preventDefault();
 
-    let messageDetails;
-    $('#customerSubmit').click((e) => {
-        e.preventDefault();
+    if (
+      $('#customerName').val() !== '' &&
+      $('#customerNumber').val() !== '' &&
+      $('#customerEmail').val() !== '' &&
+      $('#customerMessage').val() !== ''
+    ) {
+      let name = $('#customerName')
+        .val()
+        .trim();
+      let number = $('#customerNumber')
+        .val()
+        .trim();
+      let email = $('#customerEmail')
+        .val()
+        .trim();
+      let message = $('#customerMessage')
+        .val()
+        .trim();
 
-        if ($('#customerName').val() !== '' && $('#customerNumber').val() !== '' && $('#customerEmail').val() !== '' && $('#customerMessage').val() !== '') {
-            let name = $('#customerName').val().trim();
-            let number = $('#customerNumber').val().trim();
-            let email = $('#customerEmail').val().trim();
-            let message = $('#customerMessage').val().trim();
+      messageDetails = {
+        name: name,
+        number: number,
+        email: email,
+        message: message
+      };
 
-            messageDetails = {
-                name: name,
-                number: number,
-                email: email,
-                message: message
-            }
-
-            sendMessage();
-            $('#customerName').val('');
-            $('#customerNumber').val('');
-            $('#customerEmail').val('');
-            $('#customerMessage').val('');
-        } else {
-            $('#rejectModal').modal('open');
-        }
-    });
-
-    function sendMessage() {
-        $.post('/contact', messageDetails, (data) => {
-            $('#confirmModal').modal('open');
-        });
+      sendMessage();
+      $('#customerName').val('');
+      $('#customerNumber').val('');
+      $('#customerEmail').val('');
+      $('#customerMessage').val('');
+    } else {
+      $('#rejectModal').modal('open');
     }
+  });
+
+  const sendMessage = () => {
+    $.post('/contact', messageDetails, data => {
+      $('#confirmModal').modal('open');
+    });
+  };
 });
