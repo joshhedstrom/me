@@ -4,7 +4,7 @@ Thanks for stopping by! This is my personal website.
 
 From my bio:
 
-I'm Josh Hedstrom, and I'm a passionate problem solver and full stack developer. I have experience in HTML, CSS, JavaScript, jQuery, Ajax, Node.js, Express.js, MongoDB, MySQL, Sequelize and Firebase, as well as Bootstrap and Materialize.
+I'm Josh Hedstrom, and I'm a passionate problem solver and full stack developer. I'm Josh Hedstrom, and I'm a passionate problem solver and full stack developer. I currently am working in Java 6 and Angular 6. I also have experience in Vanilla JavaScript, React.js, Node.js, Express.js, as well as straight HTML and CSS. I've worked with both MongoDB and MySQL, as well as Bootstrap and Material-UI.
 
 Full Stack Web Development enables me to utilize my artistic and logical abilities to thoughtfully engineer precision applications that are efficient, intuitive, and maintainable. I'm a hard worker and a quick learner; I'm creative, energetic, logical and always curious. I am passionate about writing clean code that is easy to read and maintain.
 
