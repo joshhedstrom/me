@@ -1,7 +1,7 @@
 {
   "name": "joshhedstrom.github.io",
   "version": "2.0.0",
-  "description": "",
+  "description": "[personal website for josh hedstrom",
   "main": "server.js",
   "directories": {
     "doc": "docs"
