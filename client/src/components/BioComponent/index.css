@@ -1,0 +1,17 @@
+.bio__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    height: 100vh;
+}
+
+.bio__content {
+    width: 30%;
+    margin-left: 65%;
+
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    text-align: right;
+}

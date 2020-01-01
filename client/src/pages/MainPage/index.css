@@ -5,3 +5,14 @@ html {
   background-position: center center;
   background-attachment: fixed;
 }
+
+.mainpage__wrapper {
+  max-height: 100vh;
+  scroll-snap-type: mandatory;
+  /* scroll-snap-points-y: repeat(3rem); */
+  scroll-snap-type: y mandatory;
+}
+
+.scroll-child {
+  scroll-snap-align: start;
+}
