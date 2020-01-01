@@ -1,11 +1,22 @@
 .header__wrapper {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: right;
+
+  height: 100vh;
 }
 
 .header__title {
-    color: white;
-    font-size: 48px;
-    font-family: 'Courier New', Courier, monospace  ;
-    margin: 20px;
+  color: white;
+  font-size: 48px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 20px;
+}
+
+.header__subtitle {
+  color: white;
+  font-size: 24px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 20px;
 }
