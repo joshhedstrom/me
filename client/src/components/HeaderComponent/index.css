@@ -1,0 +1,11 @@
+.header__wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.header__title {
+    color: white;
+    font-size: 48px;
+    font-family: 'Courier New', Courier, monospace  ;
+    margin: 20px;
+}
