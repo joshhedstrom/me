@@ -9,7 +9,7 @@ html {
 .mainpage__wrapper {
   max-height: 100vh;
   scroll-snap-type: mandatory;
-  /* scroll-snap-points-y: repeat(3rem); */
+  scroll-snap-points-y: repeat(3rem);
   scroll-snap-type: y mandatory;
 }
 
