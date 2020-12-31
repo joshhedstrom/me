@@ -1,13 +1,12 @@
-# joshhedstrom.github.io
+# joshhedstrom.github.io/me
 
-Thanks for stopping by! This is my personal website.
 
-From my bio:
+I'm Josh Hedstrom, and I'm a full stack web developer and cybersecurity zealot. Currently I'm a frontend engineer at a Fortune 50 ecommerce site that handles a few million hits a day. I'm also a Web Application Security resource. I'm skilled in React, Node, and ES6. I love React Hooks and have worked with Redux. I have experience with Angular 6, Bootstrap, Firebase, Express.js, MySQL, and MongoDB. I've also worked in Java and Typescript and played around in Go.
 
-I'm Josh Hedstrom, and I'm a passionate problem solver and full stack developer. I'm Josh Hedstrom, and I'm a passionate problem solver and full stack developer. I currently am working in Java 6 and Angular 6. I also have experience in Vanilla JavaScript, React.js, Node.js, Express.js, as well as straight HTML and CSS. I've worked with both MongoDB and MySQL, as well as Bootstrap and Material-UI.
+Previously, I was the lead front end developer working on a complex cost management application for a grocery store chain, built principally with React.js. I was also a Senior React resource brought in to refactor a custom component library according to best practices.
+        
+Full Stack Web Development enables me to utilize my artistic and logical abilities to thoughtfully engineer precision applications that are efficient, intuitive, and maintainable. I'm a hard worker and a quick learner; I'm creative, energetic, logical and always curious. I am passionate about writing clean code that is easy to read and maintain. 
 
-Full Stack Web Development enables me to utilize my artistic and logical abilities to thoughtfully engineer precision applications that are efficient, intuitive, and maintainable. I'm a hard worker and a quick learner; I'm creative, energetic, logical and always curious. I am passionate about writing clean code that is easy to read and maintain.
-
-When I'm not coding, I enjoy running, music, craft beer, and spending time with my family. I currently live in St. Paul, Minnesota with my wife and 1 year old daughter. We will be relocating to Albuquerque, New Mexico in August 2018.
+When I'm not coding, I enjoy running, reading, music, brewing craft beer,and spending time with my family. I currently live in the southwest with my wife and two kids.
 
 https://www.jhedstrom.com
