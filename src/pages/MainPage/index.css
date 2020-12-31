@@ -3,7 +3,7 @@ html {
 }
 
 .mainpage__wrapper {
-  background-image: url('/assets/bulb.jpg');
+  background-image: url('./bulb.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
