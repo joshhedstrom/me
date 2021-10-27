@@ -8,5 +8,3 @@ Previously, I was the lead front end developer working on a complex cost managem
 Full Stack Web Development enables me to utilize my artistic and logical abilities to thoughtfully engineer precision applications that are efficient, intuitive, and maintainable. I'm a hard worker and a quick learner; I'm creative, energetic, logical and always curious. I am passionate about writing clean code that is easy to read and maintain. 
 
 When I'm not coding, I enjoy running, reading, music, brewing craft beer,and spending time with my family. I currently live in the southwest with my wife and two kids.
-
-https://www.jhedstrom.com
